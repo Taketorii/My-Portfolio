@@ -1,0 +1,47 @@
+img{
+	width: 30%;
+	border-style: solid;
+	border-color: white;
+	
+}
+header{
+	font-size: 20px;
+	flex-direction: column;
+	display:flex;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	background-color: transparent;
+	backdrop-filter: blur(4px);
+
+}
+body{
+	Background-color: #7e1298;
+	font-family: sans-serif;
+	background-image: url('https://img.freepik.com/premium-photo/sunset-fantasy-cyberpunk-city-digital-art_725906-109.jpg');
+	background-size: cover;
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	backdrop-filter: blur(5px);
+	border-radius: 8px;
+	padding: 15px;
+	margin: -15px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
+a:hover{
+	color: #a07530;
+	background-color: transparent;
+	border-style: solid;
+	border-radius: 15px;
+}
+p{
+	color: white;
+	margin: 50px;
+	padding: 30px;
+}
