@@ -16,11 +16,23 @@
 	<header>	
 	<h1>PAGTINGIN</h1>
 	</header>
-	<br>
-	<img src="https://i.pinimg.com/originals/54/1d/25/541d2517d492ff53b4604698f862f072.jpg">
-	<p>The song "Pagtingin" is a soulful track by the Filipino band Ben&Ben, featured on their debut album "Limasawa Street," 
-	released in 2019. The album explores themes of love, life, and an ideal wide-eyed view of it all. 
-	The song "Pagtingin" is dedicated to those who harbor strong romantic feelings yet afraid to fully let them out. 
-	The album includes other hits like "Araw-Araw," "Fall," "Roots," and "War."</p>
+	<img src="https://i.pinimg.com/736x/54/1d/25/541d2517d492ff53b4604698f862f072.jpg" class="cover" onclick="playMusic()">
+
+<audio id="audio">
+    <source src="C:\Users\markb\Documents\Portfolio COMPROG\Musics\Pagtingin.mp3" type="audio/mpeg">
+</audio>
+<script>
+    function playMusic() {
+        const audio = document.getElementById("audio");
+
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script>
+<p>The song "Pagtingin" is a soulful track by the Filipino band Ben&Ben, featured on their debut album "Limasawa Street," released in 2019. The album explores themes of love, life, and an ideal wide-eyed view of it all. 
+The song "Pagtingin" is dedicated to those who harbor strong romantic feelings yet afraid to fully let them out.</p>
 </body>
 </html>

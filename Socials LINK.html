@@ -14,13 +14,24 @@
 <body> 
 	<center>
 	<header>	
-	<h1>Di Ka Sayang</h1>
+	<h1>Maybe The Night</h1>
 	</header> <br></br>
-	<img src="https://images.genius.com/911385422f448e7f16da1dda5a579bdf.1000x1000x1.png"> <br><br><br><br>
-	<p>The song "Di Ka Sayang" by Ben&Ben explores themes of self-acceptance and self-love. 
-	It encourages listeners to embrace their individuality and recognize their worth, despite any judgment from others. 
-	The lyrics convey a message of comfort and hope, assuring that everyone deserves love and acceptance, especially from themselves. 
-	The song's chorus, which translates to "You are not worthless," 
-	serves as a powerful affirmation of self-love and encourages listeners to challenge negative self-perceptions.</p>
+	<img src="https://images.genius.com/f993b4e6324375aa64ae4f09d0868fe6.1000x1000x1.png" class="cover" onclick="playMusic()">
+
+<audio id="audio">
+    <source src="C:\Users\markb\Documents\Portfolio COMPROG\Musics\Maybe The Night.mp3" type="audio/mpeg">
+</audio>
+<script>
+    function playMusic() {
+        const audio = document.getElementById("audio");
+
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script> <br><br><br><br>
+	<p>The song 'Maybe The Night' by Ben&Ben portrays a deep connection and love between two individuals, symbolized by the warmth of a fire and the closeness under the moonlight. It reflects the certainty of everlasting love and the desire to stay together through life's uncertainties, emphasizing the hope and comfort found in being near each other.</p>
 </body>
 </html>

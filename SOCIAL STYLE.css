@@ -20,19 +20,26 @@ header{
 
 }
 body{
-	Background-color: #060b07;
+	Background-color: #000000;
 	font-family: sans-serif;
-
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/147/871/818/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-preview.jpg');
+	background-size: cover;
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	backdrop-filter: blur(4px);
+	border-radius: 8px;
+	margin: 1px;
 }
 p{
 	color: white;
-	font-size: 19px;
+	font-size: 18px;
+	font-family: Brush Script MT;
 }
 a{
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
-	margin: 15px;
 }
 a:hover{
 	color: white;
@@ -44,4 +51,7 @@ a:hover{
 	margin: 10px;
 	transform: scale(1.1);
 	cursor: pointer;
+}
+h1{
+	font-family: Lucida Handwriting;
 }

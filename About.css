@@ -1,49 +1,85 @@
-img{
-	width: 30%;
-	border-style: solid;
-	border-color: white;
-	
+body {
+    margin: 0;
+    Background-color: #00293e;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
 }
-header{
-	font-size: 20px;
-	flex-direction: column;
-	display:flex;
-	border-radius: 20px;
-	color: white;
-	background-color: transparent;
-	backdrop-filter: blur(4px);
 
+h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    letter-spacing: 3px;
+	font-family: Lucida Handwriting;
 }
-body{
-	Background-color: #00293e;
-	font-family: sans-serif;
-	background-size: cover;
-	background-position: center;	
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	backdrop-filter: blur(5px);
-	border-radius: 8px;
-	padding: 15px;
-	margin: -15px;
+.cover {
+    width: 600px;
+    margin: 20px auto;
+    border: 3px solid white;
+    display: block;
 }
-a{
-	color: white;
-	text-decoration: none;
-	margin: 10px;
+.player {
+    background: #121212;
+    width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
 }
-a:hover{
-	color: #a07530;
-	background-color: transparent;
-	border-style: solid;
-	border-radius: 15px;
+.song-info {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
-p{
-	color: white;
-	padding: 30px; 
-	font-size: 18px;
-	float: center;
-	margin-right: 1em;
-	margin-left: 1em;
+
+.progress-container {
+    background: #404040;
+    height: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.progress {
+    background: #1db954;
+    height: 100%;
+    width: 0%;              
+    position: absolute;     
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    transition: width 0.1s linear;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #b3b3b3;
+}
+.controls {
+    margin-top: 15px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #1db954;
+}
+
+.play {
+    font-size: 26px;
+}
+.description {
+    width: 80%;
+    margin: 20px auto 40px;
+    font-size: 14px;
+    line-height: 1.6;
 }
 img:hover{
 	position: relative;
@@ -59,4 +95,13 @@ img{
 	margin-right: 1em;
 	margin-left: 1em;
 	transition: 0.5s;
+}
+p{
+	color: white;
+	padding: 30px; 
+	font-size: 18px;
+	float: center;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-family: Brush Script MT;
 }

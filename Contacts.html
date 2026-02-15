@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Contacts </title>
+	<link rel="stylesheet" href="Contacts.css">
+	<script>
+		const name = "Basty"; //declaration
+		let age = 16;
+		console.log("Hello World")
+		alert("Basty")
+	</script>
+</head>
+<body>
+	<center>
+	<h1>The Way You Look At Me</h1>
+	</header> <br></br>
+	<img src="https://cdn-images.dzcdn.net/images/cover/8a421774dc72b7e2ed4bc4ae3a9a297a/0x1900-000000-80-0-0.jpg" class="cover" onclick="playMusic()">
+
+<audio id="audio">
+    <source src="C:\Users\markb\Documents\Portfolio COMPROG\Musics\BenBen - The Way You Look At Me Cover Official Lyric Video.mp3" type="audio/mpeg">
+</audio>
+<script>
+    function playMusic() {
+        const audio = document.getElementById("audio");
+
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script> <br><br><br><br>
+	<p>"The Way You Look At Me" by Christian Bautista is a romantic ballad about finding profound love, validation, and empowerment through a partner's gaze. It describes feeling fully seen and accepted, which boosts the singer's confidence and makes them feel capable of anything, emphasizing a deep emotional connection. </p>
+</body>
+</html>
